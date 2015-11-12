@@ -1,0 +1,126 @@
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+}
+body {
+  /* Typography Declarations */
+  margin: 0;
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h1 {
+  color: #D9CD64;
+}
+
+.footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+
+.masthead {
+  border-top: 2em solid #a8a3aa;
+  padding: 6em 0;
+  background-image: url('http://image6.photobiz.com/2216/20150901151422_197648.jpg');
+  background-size: cover;
+  background-repeat: no repeat;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  color: #DDFFFF;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  color: #DDFFFF;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-shadow: 5px 5px 2px #353D3D;
+}
+
+.intro-section,
+.location-section,
+.question-section {
+  max-width: 38em;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2em;
+}
+.question-section {
+  margin-bottom: 2em;
+}
+
+.footer {
+  background-color: #a8a3aa;
+}
+
+.footer-heading {
+   /*max-width: 20em;
+  margin-right:auto;
+  margin-left: auto;*/
+  padding-top:3em;
+}
+.social {
+  padding-left: 0;
+}
+
+.social > li {
+  display: inline-block;
+  padding-bottom: 3em;
+}
+
+.intro-section > p,
+.location-section > p,
+.question-setction > p,
+.footer-heading > p {
+  /* Typography Declarations */
+  
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.question-section > h3 {
+  /* Typography Declarations */
+  
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #94ABAB;
+}
+
+.footer {
+  color: #DDFFFF;
+}
+
+a:link {
+  color: #B5D1D1;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #FFF176;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFF176;
+  text-decoration: none;
+}
+
+a:active {
+  color: #DDFFFF;
+  text-decoration: none;
+}
